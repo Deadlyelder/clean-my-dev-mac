@@ -26,3 +26,8 @@ The script is specifically written for my system, therefore it might clean up th
 ```
 bash sweep_it.sh
 ```
+
+## To-Do
+- [ ] Code to clean up local git merged branches
+- [ ] Docker images and containers cleanup
+- [ ] Cleanup other things that hog the storage
