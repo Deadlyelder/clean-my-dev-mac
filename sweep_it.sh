@@ -13,6 +13,7 @@ fi
 ## First empty the trash
 printf "Emptying the trash...\n"
 sudo rm -rfv ~/.Trash > /dev/null 2>&1
+sudo rm -rfv /Volumes/*/.Trashes > /dev/null 2>&1
 
 ## Clean the logs (Be careful, only do if you dont need them anymore)
 printf "Emptying the system logs, including diagnostic reports...\n"
